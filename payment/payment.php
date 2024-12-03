@@ -83,7 +83,7 @@ $amount = get_cart_value_fxn($_SESSION['customer_id'])['result'];
       e.preventDefault();
 
       var handler = PaystackPop.setup({
-        key: 'pk_test_8f6d9624b448d4697de02bd3ec577d42698ad56d', // Replace with your public key
+        key: '', // Replace with your public key
         email: document.getElementById('email-address').value,
         amount: document.getElementById('amount').value * 100, // the amount value is multiplied by 100 to convert to the lowest currency unit
         currency: 'GHS', // Use GHS for Ghana Cedis or USD for US Dollars
